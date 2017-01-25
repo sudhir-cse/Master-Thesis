@@ -10,10 +10,12 @@ object word2vec {
   
   def computeWord2Vec(data: Dataset[Row]): Dataset[Row] = {
     
+    data.cache();
     val word2VecModel = new Word2Vec()
       .setInputCol("contentToWords")
       .setOutputCol("result")
-      .setVectorSize(300)
+      .setVectorSize(200)
+      .setMaxIter(100)
       .setMinCount(1)
       .fit(data)
     

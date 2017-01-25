@@ -96,7 +96,6 @@ object KMeansInspector {
     .master("local[*]")
     .appName("KMeans Clusters Inspector")
     .config("spark.sql.warehouse.dir", sparkWarehouse)
-    .config("spark.streaming.unpersist", "false") 
     .getOrCreate()
     
     val inputData = spark.sparkContext.textFile(INPUT_FILE, MIN_PARTITION)
@@ -123,7 +122,7 @@ object KMeansInspector {
     //Compute model hierarchy
     computeModelHierarchy(spark, mainDF, firstLevelClustersNum, firstLevelClusterMaxItr, secondLevelClustersNum, secondLevelClusterMaxItr)
     
-    
+    recordDF
   
     spark.stop()
     
