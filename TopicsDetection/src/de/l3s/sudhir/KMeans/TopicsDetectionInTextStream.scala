@@ -1,29 +1,32 @@
 /*
- * Final one
+ * There is another version of this code with better formatted and commented ------> StreamingKMeans.scala <--------
  */
 package de.l3s.sudhir.KMeans
 
 import org.apache.spark.ml.clustering.KMeans
-import org.apache.spark.ml.clustering.KMeans
 import org.apache.spark.ml.clustering.KMeansModel
-import org.apache.spark.ml.clustering.KMeansSummary
 import org.apache.spark.ml.feature.CountVectorizer
 import org.apache.spark.ml.feature.CountVectorizerModel
 import org.apache.spark.ml.feature.IDF
 import org.apache.spark.ml.feature.IDFModel
 import org.apache.spark.ml.feature.Tokenizer
 import org.apache.spark.ml.linalg.SparseVector
-import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.Dataset
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions._
-import org.apache.spark.sql.types._
+import org.apache.spark.sql.functions.udf
+import org.apache.spark.sql.types.DoubleType
+import org.apache.spark.sql.types.IntegerType
+import org.apache.spark.sql.types.StringType
+import org.apache.spark.sql.types.StructField
+import org.apache.spark.sql.types.StructType
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.Seconds
 import org.apache.spark.streaming.StreamingContext
-import org.apache.spark.ml.linalg.SparseVector
 
+/*
+ * There is another version of this code with better formatted and commented ------> StreamingKMeans.scala <--------
+ */
 
 object TopicsDetectionInTextStream {
   
@@ -67,6 +70,7 @@ object TopicsDetectionInTextStream {
     //variables for collecting initial few rdd for training the models
     import spark.implicits._
     var firstModelDF = spark.emptyDataset[Record].toDF()
+    
     val initialTrainingRecords = 500
     var initialModelFlag = true
     
@@ -465,7 +469,7 @@ object TopicsDetectionInTextStream {
 case class TempRecord(timestamp: String, title: String, content: String)
 
 /** Case class for DF ("timeStamp fileName contentToWords ") */
-case class Record(timestamp: String, title: String, contentToWords: Array[String] )
+//case class Record(timestamp: String, title: String, contentToWords: Array[String] )
 
 /**
  * This object provides with helper API
