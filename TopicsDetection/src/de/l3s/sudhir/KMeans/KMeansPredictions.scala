@@ -1,5 +1,6 @@
 package de.l3s.sudhir.KMeans
 
+
 import org.apache.spark.ml.clustering.KMeans
 import org.apache.spark.ml.clustering.KMeansModel
 import org.apache.spark.ml.feature.CountVectorizer
@@ -26,7 +27,7 @@ import org.apache.spark.streaming.StreamingContext
  */
 object KMeansPredictions {
   
-  def performKMeansPredictions(spark:SparkSession, inputDF:Dataset[Row], modelPath:String):Array[Dataset[Row]] = {
+  def performKMeansPredictions(inputDF:Dataset[Row], modelPath:String):Array[Dataset[Row]] = {
     
     //load models to perform transformation over "inputDF"
     //load first level models
@@ -40,7 +41,7 @@ object KMeansPredictions {
     val kmeansdf = kmeansModel.transform(idfdf)
     
     val k = kmeansModel.getK
-    val kmeans_centers = kmeansModel.clusterCenters
+    val kmeans_centers = kmeansModel.clusterCenters.map(_.toArray)
     val resultantClusters = new Array[Dataset[Row]](k)
     
      /**
