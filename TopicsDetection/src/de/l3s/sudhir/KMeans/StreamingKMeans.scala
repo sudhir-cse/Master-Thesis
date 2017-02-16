@@ -33,9 +33,11 @@ object StreamingKMeans {
   //clusters
   val k_fl = 4
   val topicLen_fl = 5
+  val threshold_fl = 0.5
   
   val k_sl = 2
   val topicLen_sl = 4
+  val threshold_sl = 0.3
   
   val sparkWarehouse = "temp/spark-warehouse"    //spark sql tables
   val ModelHomeDir = "/home/sudhir/modelHomeDir"  //home directorie for all the ML Models
@@ -184,27 +186,57 @@ object StreamingKMeans {
           //access each cluster
           val cluster_fl = kmeansdf_fl.filter(row => row.getAs[Int]("clusterPrediction") == index_flc)
           
-          //compute distance between cluster and each data point
-          val distance_fl = cluster_fl.withColumn("distance", computeSQD(cluster_fl.col("clusterPrediction"), cluster_fl.col("featuresTFIDF")))
+          //compute distance between cluster and each data point. And select only tow columns: "contentWords" and "distance"
+          val distance_fl = cluster_fl.withColumn("distance", computeSQD(cluster_fl.col("clusterPrediction"), cluster_fl.col("featuresTFIDF"))).select("contentWords", "distance")
           
+          /*
+           * CASE 1: if documents do not fit into any of the first level topics then,
+           * 		-they need to be stored into global container, we call them novel documents, as they are bringing new informations w.r.t globally
+           */
+          val novelDocs_fl = distance_fl.filter(row => row.getAs[Int]("distance") > threshold_fl )
+          global_container = global_container.union(novelDocs_fl.select("contentWords"))
+          
+          /*
+           * CASE 2: 
+           * -if documents fit to one of the first level cluster then,
+           * 		-if it fits to one of sub cluster then,
+           * 				-store it into corresponding local warehouse as this will get observed by existing hierarchy
+           */
+          
+          //extract documents are fitted to either of the first level clusters
+          val fittedDocs_fl = distance_fl.filter(row => row.getAs[Int]("distance") <= threshold_fl )
+          
+          //check if it fits to any of the corresponding second level clusters
+          //load second level models
+          val tfModel_sl = CountVectorizerModel.load(s"$ModelHomeDir/secondLevelModels/subModel$index_flc/tfModel")
+          val idfModel_sl = IDFModel.load(s"$ModelHomeDir/secondLevelModels/subModel$index_flc/idfModel")
+          val kmeansModel_sl = KMeansModel.load(s"$ModelHomeDir/secondLevelModels/subModel$index_flc/kmeansModel")
+          
+          //perform transformations
+          val tfdf_sl = tfModel_sl.transform(fittedDocs_fl.select("contentWords"))
+          val idfdf_sl = idfModel_sl.transform(fittedDocs_fl.select("contentWords"))
+          val kmeansdf_sl = kmeansModel_sl.transform(fittedDocs_fl.select("contentWords"))
+            
+          
+          /*
+           * CASE 3: 
+           * -if documents fit to one of the first level cluster then,
+           * 		-if it does not fits to one of sub cluster then,
+           * 				-store it into corresponding local containers, we call them novel documents as the are bringing new informations w.r.t. locally
+           */
         }
         
       }
-      
-      
-      
       
     }) //end of foreachRDD
      
   }//end of main
   
   /**
-   * User defined functions
-   * 
-   * to compute squire distance
+   * User defined functions [UDF]
+   * computes Euclidean-squire-distance between cluster center and each data point assigned to it
    */
-  val computeSQD = udf[Double, Int, SparseVector]( (clusterIndex, tfidf) => {
-    
+  val computeSQD = udf[Double, Int, SparseVector]( (clusterIndex, tfidf) => { 
       var distance: Double = 0.0
       val tfidfArray = tfidf.toArray
       val clusterCenter = firstLevelClustersCrenter(clusterIndex)
