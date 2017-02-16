@@ -155,14 +155,39 @@ object StreamingKMeans {
             
           }
           
+          println("Initial models were generated successfully......")
+          
         }
         
       }
       
-      //Process each record arrived after time point t0.
+      //Process records arrived after time point t0.
       else{
         
+        //load first level models
+        val tfModel_fl = CountVectorizerModel.load(s"$ModelHomeDir/firstLevelModels/tfModel")
+        val idfModel_fl = IDFModel.load(s"$ModelHomeDir/firstLevelModels/idfModel")
+        val kmeansModel_fl = KMeansModel.load(s"$ModelHomeDir/firstLevelModels/kmeansModel")
         
+        //perform transformations
+        val tfdf_fl = tfModel_fl.transform(mainDF)
+        val idfdf_fl = idfModel_fl.transform(tfdf_fl)
+        val kmeansdf_fl = kmeansModel_fl.transform(idfdf_fl)
+        
+        //compute first level clusters centers
+        val kmeans_centers_fl = kmeansModel_fl.clusterCenters
+        firstLevelClustersCrenter = kmeans_centers_fl.map(_.toArray)
+        
+        //process each clusters separately
+        for (index_flc <- 0 until k_fl ){
+          
+          //access each cluster
+          val cluster_fl = kmeansdf_fl.filter(row => row.getAs[Int]("clusterPrediction") == index_flc)
+          
+          //compute distance between cluster and each data point
+          val distance_fl = cluster_fl.withColumn("distance", computeSQD(cluster_fl.col("clusterPrediction"), cluster_fl.col("featuresTFIDF")))
+          
+        }
         
       }
       
@@ -171,7 +196,28 @@ object StreamingKMeans {
       
     }) //end of foreachRDD
      
-  }
+  }//end of main
+  
+  /**
+   * User defined functions
+   * 
+   * to compute squire distance
+   */
+  val computeSQD = udf[Double, Int, SparseVector]( (clusterIndex, tfidf) => {
+    
+      var distance: Double = 0.0
+      val tfidfArray = tfidf.toArray
+      val clusterCenter = firstLevelClustersCrenter(clusterIndex)
+      
+      //compute squire distance
+      if(tfidfArray.size == clusterCenter.size){
+        for(index <- 0 until tfidfArray.size){
+          distance = distance + (tfidfArray(index) - clusterCenter(index)) * (tfidfArray(index) - clusterCenter(index))
+        }
+      }   
+      distance
+    } 
+  )
   
 }
 
