@@ -1,7 +1,6 @@
 package de.l3s.sudhir.KMeans
 
-import org.apache.spark.sql.functions._
-import org.apache.spark.ml.linalg.SparseVector
+import org.apache.spark.sql.functions.udf
 
 object UDFs {
   

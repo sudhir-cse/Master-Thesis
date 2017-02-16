@@ -1,37 +1,26 @@
 package de.l3s.sudhir.KMeans
 
-//All the import statements
-import org.apache.spark.ml.clustering.KMeans
-import org.apache.spark.ml.clustering.KMeansModel
-import org.apache.spark.ml.feature.CountVectorizer
-import org.apache.spark.ml.feature.CountVectorizerModel
-import org.apache.spark.ml.feature.IDF
-import org.apache.spark.ml.feature.IDFModel
 import org.apache.spark.ml.feature.Tokenizer
-import org.apache.spark.ml.linalg.SparseVector
 import org.apache.spark.sql.Dataset
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions.udf
-import org.apache.spark.sql.types.DoubleType
-import org.apache.spark.sql.types.IntegerType
-import org.apache.spark.sql.types.StringType
-import org.apache.spark.sql.types.StructField
-import org.apache.spark.sql.types.StructType
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.Seconds
 import org.apache.spark.streaming.StreamingContext
+import org.apache.spark.ml.feature.CountVectorizerModel
+import org.apache.spark.ml.feature.IDFModel
+import org.apache.spark.ml.clustering.KMeansModel
 
-import UDFs._
-import LabelCluster._
-import UpdateModels._
-import Utilities._
-import KMeansPredictions._
-import ConstructModelsHierarchy._
+import ConstructModelsHierarchy.constructModelsHierarchy
+import KMeansPredictions.performKMeansPredictions
+import UDFs.filterStopWords
+import UpdateModels.updateKMeansModel
+import Utilities.parse
+
 
 object StreamingKMeans {
   
-  //clusters
+  //KMeans clusters
   val k_fl = 4
   val topicLen_fl = 5
   val threshold_fl = 0.5
@@ -45,7 +34,7 @@ object StreamingKMeans {
   val BATCH_INTERVAL = 2
   
 
-  def streaming(args:Array[String]):Unit = {
+  def main(args:Array[String]):Unit = {
     
     val spark = SparkSession.builder()
       .master("local[*]")
@@ -66,10 +55,6 @@ object StreamingKMeans {
     //global container
     var global_container = emptyDF
     val global_container_maxSize = 100 //after this limit container gets overflow
-    
-    //These Dataframes will be used for re-computing global model
-    var global_wareHouse = emptyDF 
-    val global_wareHouse_maxSize = 15000
     
     //local containers
     var localContainers = new Array[Dataset[Row]](k_fl)
@@ -124,11 +109,25 @@ object StreamingKMeans {
           
           initialModelFlag = false
           
-          //store theses document set into warehouse and will be used during model re-construction
-          global_wareHouse = global_wareHouse.union(mainDF)
-          
           //construct initial models hierarchy
           constructModelsHierarchy(spark, mainDF, ModelHomeDir, k_fl, k_sl, topicLen_fl, topicLen_sl)
+          
+          //distribute records of mainDF among local warehouses
+          //load first level models
+          val tfModel = CountVectorizerModel.load(s"$ModelHomeDir/firstLevelModels/tfModel")
+          val idfModel = IDFModel.load(s"$ModelHomeDir/firstLevelModels/idfModel")
+          val kmeansModel = KMeansModel.load(s"$ModelHomeDir/firstLevelModels/kmeansModel")
+          
+          //perform transformations
+          val tfdf = tfModel.transform(mainDF)
+          val idfdf = idfModel.transform(tfdf)
+          val kmeansdf = kmeansModel.transform(idfdf)
+          
+          //push into respective local warehouse
+          for (index <- 0 until k_fl){  
+            val cluster = kmeansdf.filter(row => row.getAs[Int]("clusterPrediction") == index).select("contentWords")
+            local_wareHouses(index) = cluster 
+          }
           
           println("Initial models were generated successfully......")
           
@@ -178,7 +177,12 @@ object StreamingKMeans {
            * 				-store it into corresponding local warehouse, they will be use full during reconstruction of a part of hierarchy
            */
            val fittedDocs_sl = cluster_sl.filter(row => row.getAs[Int]("distance") <= threshold_sl )
-           local_wareHouses(cluster_index_fl) = local_wareHouses(cluster_index_fl).union(fittedDocs_sl.select("contentWords"))
+           local_wareHouses(cluster_index_fl) = fittedDocs_sl.select("contentWords").union(local_wareHouses(cluster_index_fl))
+           
+           //keep track of only last few documents
+           if(local_wareHouses(cluster_index_fl).count() > local_container_maxSize){   
+             local_wareHouses(cluster_index_fl) = local_wareHouses(cluster_index_fl).limit(local_container_maxSize)
+           }
            
           }         
           
