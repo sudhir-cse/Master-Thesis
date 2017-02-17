@@ -10,12 +10,7 @@ import org.apache.spark.streaming.StreamingContext
 import org.apache.spark.ml.feature.CountVectorizerModel
 import org.apache.spark.ml.feature.IDFModel
 import org.apache.spark.ml.clustering.KMeansModel
-
-import ConstructModelsHierarchy.constructModelsHierarchy
-import KMeansPredictions.performKMeansPredictions
-import UDFs.filterStopWords
-import UpdateModels.updateKMeansModel
-import Utilities.parse
+import org.apache.spark.streaming.dstream.InputDStream
 
 
 object StreamingKMeans {
@@ -29,19 +24,16 @@ object StreamingKMeans {
   val topicLen_sl = 4
   val threshold_sl = 0.3
   
-  val sparkWarehouse = "temp/spark-warehouse"    //spark sql tables
   val ModelHomeDir = "/home/sudhir/modelHomeDir"  //home directorie for all the ML Models
-  val BATCH_INTERVAL = 2
-  
 
-  def main(args:Array[String]):Unit = {
+  def kmeansStreaming(spark:SparkSession, inputDStream: InputDStream[(Long, String)] ):Unit = {
     
-    val spark = SparkSession.builder()
-      .master("local[*]")
-      .appName("Topics detection in Text Stream")
-      .config("spark.sql.warehouse.dir", sparkWarehouse)
-      .config("spark.streaming.unpersist", "false") 
-      .getOrCreate()
+//    val spark = SparkSession.builder()
+//      .master("local[*]")
+//      .appName("Topics detection in Text Stream")
+//      .config("spark.sql.warehouse.dir", sparkWarehouse)
+//      .config("spark.streaming.unpersist", "false") 
+//      .getOrCreate()
       
     //create an empty Dataframe
     import spark.implicits._
@@ -67,14 +59,16 @@ object StreamingKMeans {
     val local_wareHouses_maxSize = 1000
     
     //Now start streaming
-    val ssc = new StreamingContext(spark.sparkContext, Seconds(BATCH_INTERVAL))
+   // val ssc = new StreamingContext(spark.sparkContext, Seconds(BATCH_INTERVAL))
     
-    val inputDStream = ssc.socketTextStream("localhost", 2222, StorageLevel.MEMORY_AND_DISK_SER)
+   // val inputDStream = ssc.socketTextStream("localhost", 2222, StorageLevel.MEMORY_AND_DISK_SER)
+    
+    
     
     //extract file content
-    val textDStream = inputDStream.map(record => {
+    val textDStream = inputDStream.map(t => t._2).map(record => {
       
-      val content = parse(record, "content")
+      val content = Utilities.parse(record, "content")
       content
       
     })
@@ -89,7 +83,7 @@ object StreamingKMeans {
       val tokenizerDF = new Tokenizer().setInputCol("content").setOutputCol("words").transform(tempDF)
       
       //remove stop words
-      val stopWordsRemovedDF = tokenizerDF.withColumn("contentWords", filterStopWords(tokenizerDF.col("words")))
+      val stopWordsRemovedDF = tokenizerDF.withColumn("contentWords", UDFs.filterStopWords(tokenizerDF.col("words")))
       
       //remove common and low document-freq terms. This is being done for the experiment
       //perform further processing as needed
@@ -110,7 +104,7 @@ object StreamingKMeans {
           initialModelFlag = false
           
           //construct initial models hierarchy
-          constructModelsHierarchy(spark, mainDF, ModelHomeDir, k_fl, k_sl, topicLen_fl, topicLen_sl)
+          ConstructModelsHierarchy.constructModelsHierarchy(spark, mainDF, ModelHomeDir, k_fl, k_sl, topicLen_fl, topicLen_sl)
           
           //distribute records of mainDF among local warehouses
           //load first level models
@@ -140,7 +134,7 @@ object StreamingKMeans {
         
         //perform transformation on the new documents
         val model_Path_fl =  s"$ModelHomeDir/firstLevelModels"
-        val clusters_fl = performKMeansPredictions(mainDF, model_Path_fl)
+        val clusters_fl = KMeansPredictions.performKMeansPredictions(mainDF, model_Path_fl)
         
         //try to merge new documents to existing hierarchy
         for (cluster_fl <- clusters_fl){
@@ -158,7 +152,7 @@ object StreamingKMeans {
           //perform second level of transformation to find fits to any of sub cluster
           val cluster_index_fl = clusters_fl.indexOf(cluster_fl)
           val model_path_sl = s"$ModelHomeDir/secondLevelModels/subModel$cluster_index_fl"
-          val clusters_sl = performKMeansPredictions(cluster_fl, model_path_sl)
+          val clusters_sl = KMeansPredictions.performKMeansPredictions(cluster_fl, model_path_sl)
           
           for (cluster_sl <- clusters_sl){
           /*
@@ -198,7 +192,7 @@ object StreamingKMeans {
           val mergeLocalWareHouses = local_wareHouses.reduce((df1,df2) => df1.select("contentWords").union(df2.select("contentWords")))
           val gcontainer_localWareHouses = global_container.select("contentWords").union(mergeLocalWareHouses)
           
-          constructModelsHierarchy(spark, gcontainer_localWareHouses, ModelHomeDir, k_fl, k_sl, topicLen_fl, topicLen_sl)
+          ConstructModelsHierarchy.constructModelsHierarchy(spark, gcontainer_localWareHouses, ModelHomeDir, k_fl, k_sl, topicLen_fl, topicLen_sl)
           
           //clear up global container
           global_container = emptyDF
@@ -215,7 +209,7 @@ object StreamingKMeans {
             val mergeContainerWarehouse = local_container.select("contentWords").union(local_ware_house.select("contentWords"))
             
             val mPath = s"$ModelHomeDir/secondLevelModels/subModel$index_local_container"
-            updateKMeansModel(spark, mergeContainerWarehouse, k_sl, mPath)
+            UpdateModels.updateKMeansModel(spark, mergeContainerWarehouse, k_sl, mPath)
             
             //clear up this local container
             local_containers(index_local_container) = emptyDF

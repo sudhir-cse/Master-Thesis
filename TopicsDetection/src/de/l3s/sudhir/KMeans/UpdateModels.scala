@@ -7,8 +7,6 @@ import org.apache.spark.sql.Dataset
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.SparkSession
 
-import UDFs.distinctWordCount
-
 object UpdateModels {
   
 /**
@@ -29,7 +27,7 @@ def updateKMeansModel(spark:SparkSession, inputDF:Dataset[Row], k:Int, modelPath
     var minDF:Long = 5
     
     //compute vocalSize
-    val dwcDF = inputDF.withColumn("distWordsCount", distinctWordCount(inputDF.col("contentWords")))
+    val dwcDF = inputDF.withColumn("distWordsCount", UDFs.distinctWordCount(inputDF.col("contentWords")))
     dwcDF.createOrReplaceTempView("distWordsCountModelTable")
     val avgValue = spark.sql("select avg(distWordsCount) from distWordsCountModelTable")
     vocalSize = avgValue.collect()(0).getAs[Double](0).toInt

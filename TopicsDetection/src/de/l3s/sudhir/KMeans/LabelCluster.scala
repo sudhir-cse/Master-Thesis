@@ -6,8 +6,6 @@ import org.apache.spark.sql.Dataset
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.SparkSession
 
-import UDFs.distinctWordCount
-
 object LabelCluster {
   
   /**
@@ -23,7 +21,7 @@ def labelCluster(spark:SparkSession, inputClusterDF:Dataset[Row], topicLength:In
     var minDF:Long = 5
     
     //compute vocalSize
-    val dwcDF = inputClusterDF.withColumn("distWordsCount", distinctWordCount(inputClusterDF.col("contentWords")))
+    val dwcDF = inputClusterDF.withColumn("distWordsCount", UDFs.distinctWordCount(inputClusterDF.col("contentWords")))
     dwcDF.createOrReplaceTempView("distWordsCountLabelTable")
     val avgValue = spark.sql("select avg(distWordsCount) from distWordsCountLabelTable")
     vocalSize = avgValue.collect()(0).getAs[Double](0).toInt
