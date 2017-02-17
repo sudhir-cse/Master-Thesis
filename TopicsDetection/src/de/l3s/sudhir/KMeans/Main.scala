@@ -44,15 +44,6 @@ object Main {
     
     StreamingKMeans.kmeansStreaming(spark, inputDStream)
     
-    inputDStream.foreachRDD(rdd => {
-        
-        val line = rdd.take(1)(0)._2
-        println(line)
-        println("----------")
-      
-      }
-     )
-    
     ssc.start()
     
     // Create and push RDDs into rddQueue   
