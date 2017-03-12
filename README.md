@@ -1,4 +1,4 @@
-# Master-Thesis
+# Problem Defination
 Text stream clustering algorithm that detects, tracks and updates large and small burst of news in two-level topic hierarchy
 
 #Tools and Technologies (Scala project):
