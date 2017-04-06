@@ -1,0 +1,83 @@
+Timestamp: 20110120170328
+Title: BBC News - Bloodhound diary: The build begins
+Text: 
+
+
+RAF fighter pilot Andy Green intends to get behind the wheel of a car that is capable of reaching 1,000mph (1,610km/h).
+
+Powered by a rocket bolted to a Eurofighter-Typhoon jet engine, the Bloodhound car will mount an assault on the land speed record.
+
+Wing Cmdr Green is writing a diary for the BBC News Website about his experiences working on the Bloodhound SSC (SuperSonic Car) project and the team's efforts to inspire national interest in science and engineering.
+
+BUILDING THE 'WORLD'S FASTEST CAR'
+
+A Happy New Year to you all.  I don't know about you, but we're excited by what the next few months will bring.  After nearly four years of planning, research and design, we're starting to build the world's first 1,000mph car.
+
+Since Hampson Engineering agreed to build the rear half of the chassis for us, the Bloodhound design office has been working flat out producing the detailed designs.
+
+ Construction work has now started on the lower chassis
+
+The drawings for the lower chassis are now being released and Bloodhound is being manufactured - what a great way to start 2011.
+
+To make sure that this year remains busy for our design office, we've just agreed a sponsorship deal to make the carbon fibre parts of the chassis (the cockpit, front end, etc.), which is fantastic news - details to follow shortly.
+
+The design team is still working on the size of Bloodhound SSC's tail fin.  The centre of gravity has moved back in the latest design, so we need a larger fin (about 70% larger, we think) to give the car enough directional stability.  We've got a rough shape to allow the team to do the detailed size and stress calculations.
+
+ Bigger fin, more stability, more room for your name
+
+Refining the aerodynamic design , including the fin size, airbrake design and suspension fairings, will be keeping Ron Ayers and his aero team busy for the next few months.  And don't forget that you can still put your name on the fin of the world's fastest car.
+
+We also had some good news about starting Bloodhound SSC's EJ200 jet engine.  The simplest way to do this is to use the start system and gearbox from the Typhoon aircraft - but they are very expensive and very hard to get hold of.
+
+Thanks to some great help from the RAF Museum at Duxford, we've now located some "used" starters and gearboxes, so we now have a starting system for the jet.  One less problem to worry about.
+
+One thing we can't borrow is a gearbox to join the Falcon rocket pump to Bloodhound's Auxiliary Power Unit (the Cosworth F1 engine), because no-one has ever used a F1 engine as a pump motor before now!  This gearbox has to reduce the 18,000rpm of the F1 engine down to 10-11,000rpm for the rocket pump.
+
+It also has to include a clutch system, to allow me to engage the rocket pump at exactly the right time during the run.  The design for this gearbox is now just about complete, with help from Xtrac, who will manufacture it for us.
+
+
+ Bloodhound SSC and the EJ200 jet engine - now we've got a starter system for it
+
+It's worth mentioning that we're not the only team trying for a Land Speed Record. The competition includes two US cars, the North American Eagle and the Fossett LSR car (which is currently up for sale, if you fancy your chances), plus Australian Rosco McGlashan's Aussie Invader 5R, which is aiming at 1,000mph.
+
+They are each taking a different approach to us - but as far as we can see, making progress.
+
+If you're a fan of F1, it may seem odd to hear me mention other challengers but this goes to the heart of what makes the Land Speed Record (LSR) so special - and uniquely suited to our education goals.
+
+The rules are few - a LSR car must have at least four wheels and be under the control of the driver.  That's it. As a result, the cars designed to break records are all different - with different solutions to the common problems of going really fast. That's why we're able to share the designs, development and data from Bloodhound so openly.
+
+And, if we're honest, it's also fun to race against other people, as well as against the clock.
+
+In 1997, the Thrust SSC team ended up racing land speed record legend Craig Breedlove to become the first to break the supersonic barrier.
+
+
+ The APU gearbox - turning a F1 engine into a pump motor for the Falcon rocket
+
+The Brits, ultimately, were successful, but the competition certainly added spice to what was already an incredible undertaking.  (Incidentally, Craig's LSR car, Spirit of America, was later bought and re-engineered by Steve Fossett, so will history be repeated? Let's hope so).
+
+I hope that all the other teams have a really successful 2011... but we're still going to beat them!
+
+Developing a Land Speed Record Car up to 1,000 mph, and doing it safely, means a lot of testing to make sure that everything from engines to suspension is working properly. We will need a detailed test programme, combined with hundreds of sensors fitted to the car - exactly as we did in 1997 to get Thrust SSC to 763 mph.
+
+As we start Bloodhound's build programme, we need to build in the sensors at the same time, so we need to design the test programme now.  We're now working on the first draft - 12 UK runway test profiles up to 250mph, then 16 desert test profiles up to 1,000 mph.  Once we've finished this fist draft, we'll publish it on the Bloodhound website for comment.
+
+The desert preparation in South Africa hasn't made much progress recently, as the desert has been wet for most of December.  Although it's summer in South Africa, the Northern Cape (where Bloodhound will run) gets all its rain at this time of year.  They should start work again soon and I'm really looking forward to seeing the finished product later on this year - the world's best high-speed race track.
+
+More Science & Environment stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

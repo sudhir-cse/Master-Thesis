@@ -1,0 +1,70 @@
+Timestamp: 20110715145411
+Title: BBC News - Musical gloves kick off TEDGlobal tech conference
+Text: 
+Musical gloves kick off TEDGlobal tech conference
+                                            By Jane WakefieldTechnology reporter, Edinburgh        
+
+ The gloves were developed specifically for singer-songwriter Imogen Heap
+
+
+
+
+A pair of musical gloves that allow wearers to manipulate music using just hand gestures have been shown off for the first time by singer Imogen Heap.
+
+The performance kicked off TEDGlobal in Edinburgh, a conference renowned for showcasing cutting-edge technologies.
+
+The gloves were developed to give Ms Heap far more control over the music she creates.
+
+The ultimate aim is to give a performance in which the gloves control all the music being played.
+ Expressive
+
+ The gloves were shown off for the first time at TEDGlobal
+
+The gloves were created by a team at the University of West England, led by Professor Tom Mitchell, a music technology specialist.
+
+He used fibre-optic gloves developed for gaming and added chip boards.
+
+The gloves were programmed based on Ms Heap's movements, so for instance to make a sound louder she opened her arms wide and to quieten it, she closed them.
+
+"We were still programming them up to the last minute," Ms Heap revealed.
+
+She has been keen to gain more freedom on stage and came across a similar project when visiting the Massachusetts Institute of Technology several years ago.
+
+"I wanted to develop ways to be more expressive and spontaneous on stage. I began using wireless lapel microphones on my wrists but the missing element was to be able to wirelessly control the music," she told the BBC.
+
+Chips built into the gloves contained both accelerometers and magnetometers, which created precise data about both the position of her hands and the speed of her movements.
+
+Similar technology is used in health care to help injured people learn to walk again.
+
+The project is ongoing and the team's next job is to add an extra layer which will allow Ms Heap to create different modes of music depending on exactly where she is standing on stage.
+
+"The aim is to connect to the audience and for them to fully understand how the sounds are created and maybe even contribute their own," said Ms Heap.
+
+She is also keen to introduce a visual element with holograms connecting her to other performers around the world.
+
+The technology provided an exciting start to TEDGlobal 2011.
+
+The five-day conference is an invitation-only event eagerly anticipated by the 850 delegates, who all pay a hefty fee to attend.
+
+The programme of speakers includes an eclectic mix of scientists, activists, technologists and artists from around the world.
+
+Actress Thandie Newton, popular science writer Malcolm Gladwell and philosopher Alain de Botton are among the big names due to speak.
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

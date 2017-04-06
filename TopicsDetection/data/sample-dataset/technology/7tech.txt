@@ -1,0 +1,147 @@
+Timestamp: 20110715145357
+Title: BBC News - The web strikes back
+Text: 
+
+
+You only have to look to the Oxford English Dictionary to see how much apps have become part of our day-to-day existence.
+
+The word sits among others that define key technology in the modern world. Words like wiki, LOL, or the verb "to Google".
+
+And if you do not have a dictionary to hand, there is, naturally, an app for that.
+
+In just three years, Apple proclaimed last week, it has served up 15 billion apps through its online store.
+
+With a sizeable revenue cut of paid programmes, it has become the goose that laid the golden egg for Steve Jobs.
+
+And although Apple did not invent the smartphone application, its system has defined the user experience. iOS apps are simplicity at every turn - payment, installation and use.
+
+Others have followed-suit, with great success. Android Market passed three billion downloads in May.
+
+But after a period of rapid growth, native smartphone apps are facing a fight for survival.
+
+That threat comes from web apps - software that runs in a browser rather than being downloaded and installed on the device's operating system.
+
+Mubaloo , one of the UK's biggest mobile app developers, estimates that requests from clients for web apps has doubled in recent months - enough to make them the third big player in app development.
+
+"We're probably doing iPhone, Android and web apps all about the same at the moment," said the company's founder Mark Mason.
+
+"Those are the three platforms. We see Blackberry slowly dying a death, and we see Windows probably growing to be the fourth player."
+
+The reason for that is simple - developing web apps solves several headaches.
+
+Firstly, like the regular internet, a good web app can be made to adapt to a wide variety of devices rather than forcing the developer to create different products for each platform - be it iPhone or Android, smartphone or tablet.
+  
+
+         
+
+           
+
+
+
+                      
+Developer Oli Christie explains the economics of apps.
+
+
+Secondly, by circumventing the strict guidelines associated with official stores, Mr Mason's clients can have exactly what they want, and can say for certain when it will be ready for the public.
+
+Should any changes need to be made once the app is live, they can be made instantly, rather than wait several days for approval.
+
+And then there's the matter of money.
+
+Put an app in the App Store and 30% of each sale goes to Apple. Android takes the same, but the cash goes to payment processors and mobile carriers.
+
+Microsoft and BlackBerry also get a cut of what sells in their stores.
+
+Web apps offer developers the chance to cut out the middle man.
+ Final straw
+If that was not enough of an incentive to fly solo, in February of this year, Apple announced that it would also be taking 30% of revenue from in-app subscription payments.
+
+It is that levy which may have proved be the final straw for cash-strapped publishers relying on a lucrative digital strategy to keep operations moving.
+
+The first major player to adopt a web-apped approach to mobile subscribers was the Financial Times (FT). In June, the newspaper released its debut web app . Since launch it has attracted 200,000 users.
+
+FT bosses have said subsequently that future app development will be focused on web platforms rather than native.
+
+
+ Apple's App store set the standard, but now faces a challenge from browser-based software.
+
+"The main factors on our mind when we launched app.ft.com were that it just isn't practical to maintain separate development for each individual technology platform," Stephen Pinches, the FT's group product manager for emerging technologies, told the BBC.
+
+"It's unwieldy and ultimately unsustainable. We are planning to push our web app out to multiple platforms this year: Android, PlayBook, WebOS and others, and this really is the most logical and strategic approach."
+
+Key improvements in smartphones' ability to power staple web components mean the FT web app does almost everything the company would expect from a downloaded app - including offline reading.
+
+"The developments that have made this happen really are mostly to do with the way the hardware and the software on a phone play together," Mr Pinches continued.
+
+"We now have much faster implementations of core web technologies such as JavaScript combined with much better hardware acceleration from the device itself."
+
+There are still limitations, however. Web apps, for the time being at least, have less access to in-built functions that many popular native apps utilise, such as the compass, accelerometer or camera.
+
+"On iOS devices particularly," Mr Pinches continues, "there are limitations as to how much data you can store in an app. It is capped at 50MB, and you have to explicitly ask the user for the space.
+
+"This means we have to be smart about what we store, but limitations like this can be very good for developers as they force discipline and good design."
+ Hurling pigs
+Technology aside, by far the most pressing hurdle facing web apps is one of discoverability.
+
+ Continue reading the main story 
+“Start Quote
+
+The main factors on our mind when we launched app.ft.com were that it just isn't practical to maintain separate  It's unwieldy and ultimately unsustainable.”
+End QuoteStephen PinchesFT group product manager
+On all the market leading smart phones, a ready-made store for downloading apps is available to users from the word go. For web apps, there is a reliance on the user to consciously go to a web address.
+
+In an industry that typically relies on recommendations and algorithmic indexing, this is a problem.
+
+As the most widely read business newspaper in the UK, the FT may not have a problem getting its URL to the audience - but smaller operations without advertising budgets will struggle.
+
+Teck Chia, a San Francisco-based developer, thinks he has the solution to this problem with his product, OpenAppMkt.com - a store for web apps.
+
+"We identified two major problems for web apps on mobile," he told the BBC.
+
+"One is discovery, and the other is the easy way to monetize their apps. Both of which were very well supported on the native platforms, but nothing of that sort exists on the open web for mobile."
+
+To all intents and purpose, OpenAppMkt is just like any other app store.
+
+"From the user's point of view, they see us as an alternative app store where they can discover apps that are not found in the Apple app store or Android Market.
+
+"We support paid apps - and the way that people buy apps is very similar to the way they do it on the native app stores. They fill in a credit card once, and after that it's a one click process."
+
+
+ Web versions are now available of many of the most popular games and productivity applications
+
+Of the revenue generated, Mr Chia's business takes a 20% share. In-app payments or subscriptions are not shared.
+
+The site, which launched less than a year ago, has served up over one million app downloads, with an average of over 100,000 downloads a month.
+
+Mr Chia concede that the overwhelming majority of apps downloaded are free - and this could pose problems in the long run.
+
+"Every day we sell a few apps here and there - but there are not a lot of good quality paid apps yet."
+ Change of heart
+When asked by the BBC, Apple declined to offer any comment for this article. But its strategy seems fairly solid: the native app is king.
+
+Yet even in Cupertino it has not always been that way.
+
+"When they first launched the iPhone it was all web apps, web apps, web apps!" Stuart Miles from UK-based Pocket-lint.com recalls.
+
+"But then when they launched the iPhone 3G, it was 'you don't want web apps, they're rubbish!
+
+"You want native apps so then we can charge you for them... and we'll take 30%"
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

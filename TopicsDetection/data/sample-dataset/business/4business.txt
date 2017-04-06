@@ -1,0 +1,108 @@
+Timestamp: 20110308113050
+Title: BBC News - Market research and the primitive mind of the consumer
+Text:          
+
+           
+
+
+
+                      
+WATCH: Are the eyes the window to the soul?
+
+
+"The trouble with market research is that people don't think how they feel, they don't say what they think and they don't do what they say."
+
+So said the late advertising don David Ogilvy, and his words get to the heart of what is still one of the biggest challenges in business: How can you tell if people really like what you are trying to sell them?
+
+Technology offers an answer to the question that Ogilvy, who died in 1999, probably never envisaged.
+
+
+ Product testers are great at telling you exactly what you want to hear
+
+Market researchers are already experimenting with desktop and smartphone applications that promise to reveal the subconscious layers of a consumer's brain.
+
+What's more, because this technology can work automatically and in real-time, it could potentially be used to evaluate the emotional responses of millions of people before any product is released.
+
+And, with one small caveat, this power could transform market research and indeed the whole world of business forever.
+
+(Oh yes, the "small caveat": to go along with this, you must be prepared to believe that computers can decipher the intricacies of human emotion.)
+
+Market failure
+
+Old-fashioned market research is straightforward and unemotional: you get a sample of product testers and ask them what they think of a particular concept, product or brand.
+
+But surveys and focus groups assume that people know what is going on inside their own heads - and that is a risky assumption.
+
+
+
+"80% of new products brought to market fail, largely due to failures in traditional techniques", says Rob Stevens, co-founder of UK market research company Bunnyfoot.
+
+"I can't think of any other area of business where such a failure rate would be considered acceptable, yet somehow, in market research, it is."
+
+Lie to me
+
+Mr Stevens likes to describe his company as a real-life version of The Lightman Group - the fictional agency in the TV series Lie to me starring Tim Roth.
+
+Like Roth's character, Bunnyfoot's staff are trained to spot clues in the facial expressions of product testers, which betray their inner feelings - a process known as "facial coding".
+
+They also use eye-tracking technology to monitor exactly where a person looks during a product test.
+
+Though relatively old and low-tech (facial coding goes back to Charles Darwin), these techniques are capable of yielding business insights.
+
+
+ A product tester's facial expressions are filmed while they surf the Boden website
+
+"When you ask a product tester if they spotted a particular feature on a webpage, they often tell you they did," says Mark Batty of online clothing retailer Boden.
+
+"But when you look at the eye-tracking, you discover that they never saw it all."
+
+Boden is in the middle of a usability study of its website, and as its e-commerce manager, Mark Batty has learned not to put much faith in testers' explicit responses.
+
+"Often their verdict of the whole site depends on whatever task they did at the end of the test," he adds.
+
+"If they enjoyed the final task they would be full of praise about the site, even if their facial expressions revealed that they had struggled with it at the beginning."
+
+Look into my phone
+
+The problem with manual techniques like facial coding is that they require a researcher to sit through hours of slow motion video, logging every mind-numbing frown and every humdrum movement of the pupils.
+
+This means that studies are necessarily limited to a small sample of testers.
+
+Boden's usability study, for example, had a sample of just 30 people across three countries.
+
+
+ A product tester's responses to a TV advert are automatically decoded by ThirdSight's software
+
+But this obstacle could soon be removed, by allowing computers to do most of the donkey work.
+
+"Facial expressions can be read by a computer - it's just the movement of pixels in a piece of video," says Dr Roberto Valenti of the University of Amsterdam.
+
+Dr Valenti and his colleague Dr Theo Gevers are so convinced of computerised emotion recognition that they set up a spin-off company called ThirdSight to cash in on it.
+
+"A researcher gets tired, they need to be paid, they need to be trained."
+
+
+ A smartphone monitors and decodes a person's facial expressions as either "positive" or "negative"
+
+"But our software never gets tired and it can analyse thousands and thousands of faces at the same time."
+
+ThirdSight's latest achievement is to get automatic facial coding software running on a smartphone, using the phone's inbuilt camera to record a product tester's expressions.
+
+More Business stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

@@ -1,0 +1,83 @@
+Timestamp: 20120107061632
+Title: BBC News - Orange and T-Mobile merge networks
+Text: 
+
+
+Customers of Orange and T-Mobile will soon be able to hop between the two mobile networks.
+
+The deal is one of the first practical benefits from the recent merger of the two firms, which have 30 million customers combined.
+
+The network sharing deal is limited to 2G signals, meaning that customers will see little benefit when using the mobile web.
+
+Analysts said that T-Mobile had the most to gain from the merger.
+
+"Outside of the South-East [of England] there has been a constant perception that T-Mobile is an underperforming network," said Shaun Collins of research firm CCS Insight.
+
+"This literally takes it away overnight."
+ Network evolution
+He said that network coverage was becoming a "key battleground" between the major UK networks.
+
+"The network coverage advantages of the merger [between Orange and T-Mobile] were always the most important part of it," he said.
+
+Customers of the two firms will have to sign up for the free "roaming" service, which goes live on 5 October.
+
+Once registered, their phone will automatically hop between the networks when it loses signal. The underlying system is similar to that used when a phone "roams" on a different network abroad.
+
+Next year Everything Everywhere - the company that runs Orange and T-Mobile in the UK - said that phones would automatically switch to whichever of the two networks has the strongest signal mid-call.
+
+It said it also plans to roll it out to 3G services.
+
+When it does, Orange customers will be able to use a 3G network owned and operated by Mobile Broadband Network Limited (MBNL), a joint venture company owned by Three and T-Mobile.
+
+Orange joined MBNL on the 16 August.
+
+"Everything Everywhere will be adding Orange sites to the network it shares with Three in the course of time, and Three customers will get access to a significant proportion of those as they are added," said a spokesperson for Everything Everywhere.
+
+Three customers are already able to use the Orange network for 2G calls and texts.
+
+Further down the line, Everything Everywhere aims to start building a next-generation LTE (long-term evolution) mobile network, to cope with the surge in demand for data and the mobile web.
+
+LTE offers faster speeds than current 3G networks and is able to handle more traffic.
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+
+Identity crisis? 
+
+What Republicans could learn from UK Tories' wilderness years 
+
+
+
+
+
+Mississippi Blues 
+
+Why is the Delta still so poor? 
+
+
+
+
+
+Keeping guard 
+
+Libya's revolutionary militias are reluctant to down weapons 
+
+
+
+
+

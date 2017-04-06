@@ -1,0 +1,80 @@
+Timestamp: 20110715145421
+Title: BBC News - 'Talking' cars could reduce motorway pile-ups
+Text: 
+'Talking' cars could reduce motorway pile-ups
+                                                        
+By Katia MoskvitchTechnology reporter, BBC News        
+
+ Crash alarms are relayed to approaching vehicles so they slow and safely stop long before reaching an accident
+
+
+
+
+"Talking" cars may soon be a reality - even without the need for human-like facial features, claim researchers.
+
+Scientists from the University of Bologna in Italy have developed software that lets cars "communicate" with one another on the road.
+
+Similar technology had been used before but this time, said the team, cars would be able to "know" what had happened kilometres ahead.
+
+Tests suggest it could reduce motorway pile-ups by 40%.
+
+The reduction in accidents emerged during computer simulations of the safety system which were detailed in a paper published in the journal Computer Networks.
+
+Road tests of the software are imminent and will be carried out in August 2011 on the streets and motorways of Los Angeles in conjunction with car maker Toyota.
+
+ Continue reading the main story 
+“Start Quote
+
+The furthest car could have a truck behind it which limits its transmitting capacity, or could be fitted with a less powerful communication system than the one in front of it”
+End QuoteDr Marco RoccettiUniversity of Bologna
+Although telematics, which unites telecommunications and informatics in cars, has been used for some time, the Italian research adds one more player.
+
+It unites telematics with the notion of the Internet of Things in which everyday objects have a presence online so they can be communciated with.
+
+The ultimate aim is to connect all cars on the road through wi-fi - either by installing a wi-fi-enabled sensor into a car, or by downloading software on to a smartphone.
+
+Team leader Professor Marco Roccetti told BBC News that the study could have a major impact on society - particularly "in terms of human lives and societal costs".
+ Alerting in relay
+
+ "Talking" cars could help diminish the number of victims
+
+Team member Professor Alessandro Amoroso explained that the system the scientists had developed was different from conventional telematics that sees a radar-type mechanism detect an obstacle on the road in front of a car, which then brakes to avoid a crash.
+
+His colleague Professor Gustavo Marfia agreed.
+
+"By letting cars 'talk' to each other, we can see what happens kilometres ahead - whereas current technology, instead, allows cars to perceive an obstacle only when it is physically in front of them," he said.
+
+The "talking" is done via acceleration sensors built into cars that trigger an alarm message in abnormal conditions such as when a vehicle is involved in a crash.
+
+When a car in an accident experiences a sudden change in acceleration, this change would be captured by the sensor and alert cars and drivers approaching the same spot.
+
+This alarm could spread down the chain of vehicles in a relay so they could safely stop a long way before they reach the accident scene.
+
+"We have developed an optimal algorithm for multi-lane, strip-shaped portions of roads - such as highways," said Professor Roccetti.
+ Flooding the system
+Professor Marfia said the system could work two different ways.
+
+One would see all cars equipped with a device running the alarm software, and integrated directly into the dashboard or in the sat-nav. The cost of integrating such a device would be about £25 per car, he said.
+
+"Otherwise, our application could also run on wi-fi-enabled smartphones," he added.
+
+One problem might be that if a car involved in an accident starts communicating with every single vehicle behind it, and they in turn relay it to those following them, the system could become clogged with messages.
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

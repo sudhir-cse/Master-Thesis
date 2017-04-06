@@ -1,0 +1,78 @@
+Timestamp: 20110624055114
+Title: BBC News - Greek default: End of the world or small patatas?
+Text: Greek default: End of the world or small patatas?
+                   
+ 
+                
+I got briefed heavily last week that if Greece defaults it could be another Lehman style event. Indeed, so did everybody else.
+
+The world's media took this up and, lo, round about midnight sometime after the last Molotov cocktail was thrown on 15 June 2011, Angela Merkel decided there should be no private sector exposure to any soft rollover of Greek debt.
+
+I am now beginning to wonder. There is a lot of noise out there in the blogosphere that says, in fact, a Greek default would be manageable. Here for example .
+
+Meanwhile, the think-tank Open Europe is arguing for a controlled default now on the grounds that the losses will only increase (from 50% now to 69% in 2014) if we go ahead with a second bailout.
+
+Thinking this through (pile in if you think I am getting this wrong)2026
+
+ Source: Various
+
+There is about 340bn debt in total (maybe bigger). The issue is who holds it. This is the story according to Capital Economics (see Chart 2).
+
+If we look at direct exposure to a default, and assume 50% is wiped out now, then the Greek banks and pension funds definitely get wiped out by the default. Suppose the top four most exposed banks get nailed: Agri, Hellenic, Piraeus and NBG - see the list here .
+
+They get nationalised and the state cannot hold them, so that alone forces the ECB and IMF to transfer taxpayers money into an emergency rescue of the Greek economy. That is just to keep the ATMs issuing money.
+
+But how much does it cost? I calculate on a rule of thumb basis the top four banks' assets to be 270bn, so recapitalising them is a large fraction of that, depending on what else comes out of the woodwork.
+
+The "haircut" on 18% of 340bn, added to the short term liquidity at risk, sinks the ECB, technically because there that exposure is doubled by the short term Greek collateral the ECB holds, which becomes worthless. It needs to call on the major states for more capital, which they provide. It is a reputational hit and a bit of a mindbender, but it is manageable, again, with North European taxpayers' money. If you add up its direct and collateral exposure it comes to about 90bn.
+
+Next, the Eurozone governments with their 12% (40bn) direct exposure take a hit (taxpayer again).
+
+So, to add it all up, you have the European taxpayer on the hook for about 50% of 400bn, i.e maybe 200bn max (Open Europe is saying 144bn), more than half of it a direct transfer to Greece, the rest to shore up holes in the ECB and their own sovereign debt.
+
+The contagion issue here becomes: do the markets take down Italy and Belgium, on top of Spain, as the overall cost of government borrowing rises? It is a big if.
+
+Meanwhile, what are the contagion effects into the banking system and the market in credit default swaps?
+
+Okay, so according to UBS research, the top eight banks exposed to Greek sovereign debt directly are Greek or Cypriot (by the way, that means goodbye Cyprus in any default, a theme not heavily dwelt upon in the past few days).
+
+But who is number nine? Step forward that perennial star of the crisis, Dexia. According to UBS research, the 3.5bn Dexia is exposed to constitutes 39% of its capital. So in a default, probably, it is goodbye Dexia.
+
+Dexia is based in Belgium which does not have a government but it does have a sovereign debt rating: this is AA and on negative watch. Its' debt is just below 100% of its GDP. That 4bn max it would cost to fix Dexia is peanuts compared to Belgium's 400bn sovereign debt, but then again adding it to the deficit in a single year would tank the country's credit rating even further.
+
+But hey, it is Belgium. The European government is based there so nothing can go wrong?
+
+Seriously, even if Dexia goes bust, and Belgium has to bail it out, it will simply have to do what it did before, and appeal to France to do the business instead, in a kind of cross-border nationalisation. So there again the French taxpayer takes a hit, but 4bn is only half an aircraft carrier.
+
+So the real issue is credit default swaps. How much derivative action is there going to be on a Greek default: how much of it simply hedging and how much of it speculative?
+
+According to DTCC there is 78bn worth of credit default insurance against Greece, but that is gross: the net losses are listed at 5bn. As to speculation, a market participant points out to me that the size of the CDS position on Greece has been shrinking as pension funds etc have been throwing in the towel as risks increase.
+
+What is the contagion risk on a 5bn net loss in the CDS system? Don't know.
+
+One really useful thing for the EU electorate would be if the EU finmins simply published their view of what the contagion risk is into this part-speculative, part-rational market.
+
+Now what are the alternate outcomes? Suppose we found Bank A/Hedgefund A had a massive bet on the Greek default not happening and would go bust as a result. After all that has happened shouldn't we just say, okay, let it happen?
+
+Would it not then be timely to bring forward, in the UK for example, Mr Andrew Haldane of the Financial Stability Committee, who might say: Institution A has endangered itself and the system by these rash bets on the Euro's survival so it must go bust?
+
+But maybe Institution A is systemic and cannot go bust without the ATMs and supply chains of the world closing down. In which case, even a TARP-style nationalization, (the US taxpayers got their money back remember) could solve this. Again the taxpayer takes the hit but it will be noted that the taxpayer of a solvent country is in a very good position to take that hit, because that country can borrow, leveraging its own money many times over, at low interest rates, because it is a country.
+
+I am playing devil's advocate here, so please join in and shoot me down for my illiteracy etc: but doesn't this all show there is in fact no systemic contagion risk into the banking system from a Greek default, and in fact the world financial system, which handled Argentina, can handle this?
+
+There is a massive shared hit to Europe's fiscal position, but there is a sound moral case behind taking that hit, because it was the Eurosystem that allowed Greece to run up the debt. And Europe is strong enough to take that hit.
+
+That leaves the banking contagion, and if we are overblowing it, cui bono?
+
+Well, when the original Euro bailout fund was formed last year Angela Merkel insisted the banks and pension funds who had lent the money would not take a hit until after 2013; now the IMF and ECB are urging Europe to create a new bailout fund to operate thereafter in which private investors never take a hit, ever.
+
+Even the relative seniority of taxpayers' money over bank money is to be ironed out in the new system.
+
+After three years of agonising about moral hazard we are basically creating a system where banks and pension funds can lend money to EU governments with a cast iron guarantee they will get their money back.
+
+It is great if you think we should be moving towards a new state capitalism, where the state becomes the permanent underwriter of financial profit, but it is not really a market.
+
+As they say on Twitter, #justasking
+
+Update: On the basis of some initial feedback to this blog, here is the counter argument:
+

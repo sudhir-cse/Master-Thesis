@@ -1,0 +1,248 @@
+Timestamp: 20060701041958
+Title: BBC - Weather Centre - Frequently Asked Questions
+Text: 
+Other Queries
+We receive hundreds of questions, observations and comments about the weather, our forecasts and other topics. Replying individually to each one is costly and we are sorry that we cannot do so.
+To make best use of your licence fee and deal efficiently with your enquiry, we've provided the following answers to the most common questions we're asked at the BBC Weather Centre.
+
+We are currently unable to display sea surface temperatures on the website. We are working with our partners at Metra to resolve this problem and will reinstate this function as soon as it is available.
+
+For FAQs about our new look graphics, please see New Graphics - FAQ
+
+Please click on the question below that best fits your problem. Our links will take you to the appropriate information:
+   
+Does your issue refer to:
+   
+Information on making an official complaint 
+
+
+Your query not here? Then please contact us via our feedback page , and we'll do our best to help.
+
+Weather maps
+All Weather maps require your browser to be Javascript enabled. You can enable or disable this feature from within your browser's preferences. This can vary from browser to browser, so the simplest way to find instructions on it is to search for Javascript in your browser's help options or visit BBC WebWise for step-by-step instructions.
+
+Time
+The times on BBC Weather UK maps are shown in GMT (or BST when applicable). World maps are shown in the following times:
+Australasia - GMT +10 hours
+Asia - East - GMT +8 hours
+Asia - South East - GMT +7 hours
+Asia - South - GMT +5 hours
+Middle East - GMT +3 hours
+Europe - East and Mediterranean - GMT +2 hours
+Africa - GMT +1 hour
+Europe - North - GMT +1 hour
+Europe - West - GMT
+America - South - GMT -4 hours
+America - Central - GMT -6 hours
+America - North - GMT -6 hours
+
+BBC Weather games
+To view our 3D animations you need to install Macromedia's freely available Shockwave or Flash plug-ins for your browser. Step-by-step instructions on installing the Flash or Shockwave plug-ins can be found at BBC WebWise .
+
+You can also find a free copy of Macromedia plug-ins on many free CDs given away with computer magazines. Alternatively if you visit Macromedia's own download site where you can also get them.
+
+Audio and video troubleshooting
+Video and audio on our site requires the free plug-in Real Player, which is available for download from the Real Networks site. If a RealMedia audio/video doesn't play with your current browser set up, download the RealOne (for Windows 98/2000/XP and Mac OS X users) or RealPlayer 8 Basic (for Windows 95 and Mac OS 9 users). BBC WebWise has a step-by-step guide to help you.
+Viewing and printing the five day forecast
+The fiveday forecast and 24 hour forecast use 'JavaScript' to display the description for each days weather summary. If you are having trouble viewing this please make sure your browser's 'JavaScript' feature is on. If you are still having problems viewing these descriptions you may need to upgrade to the most recent version browser available.
+
+BBC Weather Font Size
+BBC Weather is designed to be viewed using a medium font on your browser. If you are finding that the font size is too large or too small, check that the font size in your browser is set at 'medium' so that you can view the site in its 'best' format. For example, in Internet Explorer, font size can be found in 'View' then 'Text Size'.
+
+It is possible to print the five day forecast exactly as it appears on the screen. To do this, you need to set your browser option so that you can print background images and tables. For more information on this, check your browser help pages.
+
+Why don't I have a 24 hour forecast?
+We currently receive 24 hour forecasts for just fewer than 400 sites around the United Kingdom, which we display on our site. Our five day forecasts, are forecasts mapped to these observation stations, consequently there are more 5 day forecasts available than 24 hour forecasts.
+
+Refreshing pages
+If the pages you are viewing on BBC Weather seem out of date, your web browser may not be updating them. It is probably showing a version of the page cached in the browser's cache.
+
+The BBC Weather site is changed throughout the day, so you need to set your browser to look for the latest pages on the site. Otherwise your browser will look at the last version you viewed, which is saved to the browser's cache. The browser does this to speed up the time it takes to retrieve the requested page.
+
+To override this and download the most recent page, try clearing out your cache by pressing the browsers 'Refresh' button to ensure the most up-to-date pages are viewed. You can set your browser to do this automatically by setting the browser options to check for a new page every time you visit a site:
+
+Internet Explorer browser family:
+Press Refresh on your browser.
+
+The hometown feature is dependent on the information contained in a cookie, which remembers your choice of five day forecast town. A cookie is a small text file that is sent to your computer when you visit our site. This file contains information on your preferences to produce your personalised homepage whenever you visit BBC Weather.
+
+If you can't get the site to work properly, it's probably that your browser refuses to accept cookies or that the cookie has become corrupt. You can normally change rules on accepting cookies from within your browsers preferences.
+
+However, firewalls used by many companies maybe set up to refuse certain cookies, so if BBC Weather is showing the London forecast on the homepage, while your home PC shows the weather for your home town, this maybe down to your company's own firewall denying or restricting access of our cookie to your local network.
+
+For more information on cookies see the BBC's Privacy Policy or for further information BBC Webwise .
+
+WAP
+BBC Weather offers five day forecasts straight to your mobile though WAP. See BBC Mobile for further information and troubleshooting or contact us through our BBC Feedback page.
+
+BBC Broadband
+BBC Broadband is available through many service providers. The following page gives details on how to access BBC Broadband services and also helpful tips on troubleshooting - BBC Broadband Home .
+
+BBC Weather Screensaver
+The BBC Weather screensaver service has been discontinued. We hope to offer new screensavers in the future.
+
+Observations
+Observations are made at official weather stations and sent in hourly, so occasionally the weather may have changed in the time taken for the observations to leave the weather station and appear on our site.
+
+Differences between forecasts on the TV and on bbc.co.uk
+The five day forecast data is a Met Office data stream that goes directly to various BBC servers for use on bbc.co.uk and BBCi and is also used to make up many of the automated charts we use on TV (wind, temperature etc.). We do not currently amend it in anyway for any of the new media platforms, although this data feed is now updated on bbc.co.uk and BBCi twice a day to improve accuracy.
+
+Broadcast Meteorologists based at the BBC Weather Centre may amend the data used on the TV bulletins as they have access to the latest information from the Met Office and so are aware of where the computer model may have been slightly out in some way, or where perhaps the weather situation progresses faster or slower than expected.
+
+Weather stations
+The location of a weather station is found underneath the five day forecast for your chosen location. The latitude and longitude of weather stations are presented in a decimalised format. This is the format used by the Met Office to run their forecast computer model. You can find the location of a weather station by entering the latitude and longitude into a search engine such as StreetMap. (DisclaimerThe BBC is not responsible for the content of external websites.)
+
+Finding your forecast
+If you are looking for a forecast for your home town, either type your town name or your postcode into the search box on our home page. BBC Weather has specific forecasts for hundreds of UK towns and cities, plus towns and cities around the world.
+
+If you can not find a UK forecast by entering your town name, our post code finder will give you the nearest and most appropriate available forecast.
+
+If you still can't find your forecast, or you are looking for a forecast outside of the UK, please type in the name of the country and select the most appropriate forecast from the list available.
+
+Long term forecasting
+Forecasting the weather beyond about 5 days ahead stretches even the most experienced weather forecaster. The Met Office runs complex numerical weather forecast models hundreds of times for the month (and season) ahead to build up a picture of the likelihood of different weather types affecting the UK.
+
+For forecasts beyond the next five days, please see BBC Weather's Monthly Outlook page (UK forecast only).
+
+For general climate information, see BBC Weather's World Country Guides and World Average Conditions pages for details on countries, towns and cities around the world.
+
+Holiday weather
+If you want to know the weather forecast more than five days in advance of your trip, check BBC Weather's Country Guides , which detail the climate for each country.
+
+Alternatively check out our pages of Average Conditions for hundreds of towns and cities around the world.
+
+If you are going away within the next five days, enter the town or country you are travelling to in the search box on our homepage and click on your destination city or nearest available forecast.
+
+Historical weather information
+For a round up of the weather for a specific month, please see our Year in Review pages.
+
+For a round up of the day's weather, see our Daily Review pages.
+
+For historical weather information for a specific day or location, or for weather information for an insurance claim, please contact the Met Office .
+
+Weather extremes
+For information relating to current UK weather records see our UK records page.
+
+For yesterday's UK weather extremes, see our Daily Review page.
+
+Producing weather forecasts
+Find out how BBC Weather forecasts are put together in Producing Weather Forecasts .
+
+Interpreting the five day forecast
+The symbol shown for each day in the five day forecasts represents the predominant weather expected on the day in question. This is calculated based on a weighting of different types of weather, so if a day is forecast to be sunny with the possibility of a brief shower, then we will see a sunny or partly cloudy symbol rather than a rain cloud.
+
+Both observed and forecast pressure are reported for mean sea level. If you live on high ground, the actual pressure at your altitude will need to be calculated accordingly. For more information on this see Barometers .
+
+Our summary charts the forecasters will use the best symbol for the predominant weather at the time shown so they can take into account more detail or very recent changes to the forecast. The weather symbols used by the BBC Weather Centre are designed by our own team of graphic designers, and relate to all eventualities of meteorology. More about symbols .
+
+The maximum temperature may on occasion seem to contradict the weather summary symbol. That is because the predominant or significant weather for the day and the maximum temperature for the day may not necessarily coincide.
+
+What time do the maximum and minimum temperatures refer to?
+The maximum temperature is the highest temperature forecast between 0600 and 1800, whereas the minimum temperature is the lowest temperature expected from 1800 on the day in question to 0600 the following day.
+
+Where do the background maps come from in your charts and how is the data turned into graphics?
+Find out how weather data is turned into the graphics seen on our weather charts in Weather Symbols and Graphics Development .
+
+Who gives you the information used in your weather charts?
+We get most of our data from the Met Office and this is turned into charts, and presented in forecasts on BBC TV, radio and new media outlets such as the web. Further information .
+
+What do the different warning systems mean?
+We publish weather warnings from the Met Office and flood warnings from the Environment Agency. These have different levels of severity and are updated as and when we get new information. Find out more about flood warnings and weather warnings .
+
+What does the temperature chart show?
+Temperature charts show the temperatures expected for a given time. The coloured scale is explained in the temperature conversion scale near the chart and ranges from dark blue (extremely cold) to bright red (extremely hot).
+
+What does the sea temperature chart show?
+
+We are currently unable to display sea surface temperatures on the website. We are working with our partners at Metra to resolve this problem and will reinstate this function as soon as it is available.
+This shows the expected temperature of the sea at lunchtime on the day shown. The colours used are explained in the temperature conversion key and range from dark blue (extremely cold) to white (very warm).
+
+What does the lightning chart show?
+Satellites pick up lightning strikes, which are then represented on the chart. One symbol represents one strike.
+
+What is relative humidity?
+The relative humidity of air indicates how much water vapour it contains compared to the maximum it could contain at that temperature. A figure of 90 % indicates that the air contains 90 % of the maximum water vapour that the air could hold at that temperature. For further information see humidity .
+
+What is the difference between a 'forecast rain' chart and the 'rainfall radar' chart?
+The 'forecast rain', or precipitation, chart shows where rainfall or snowfall is expected to fall at the time shown. Rain is represented by the dark areas, while the white areas show snow.
+
+Radar is used to detect where there is moisture in the atmosphere (which could be rain, snow, hail and very occasionally a large cumulonimbus cloud). The 'echoes' received by the radar are shown on the 'rainfall radar' chart. This gives an excellent indication of where rain (or snow or hail) is falling at a given time. The brighter the colours, the heavier the rainfall. This data is quality controlled, however there are some circumstances where the radar may indicate that rain is falling, but it may be drying up before it reaches the ground, and very occasionally it may still show a very large moist cloud!
+
+Interpreting indices
+The index system ranges from low, through to medium and high risk of effects from sun, pollen or pollution. Please note, air pollution forecasts are not available for all the locations for which we provide a five day forecast. For further information see Indices .
+
+How is the sun index measured?
+Our sun index chart is a way of indicating the strength of the ultraviolet radiation reaching ground and the damage it can have on our skin. It is calculated using the position of the sun in the sky, which depends on the time of year, and the latitude/longitude of the location. It then takes into account the amount of cloud cover. Find out more about the sun index .
+
+When do you publish the pollen index?
+The pollen index is published between April and August each year using information supplied by the National Pollen Research Unit . The pollen index uses information from the National Pollen Network, knowledge of local vegetation, weather patterns in the winter and spring that influence plant growth, and weather forecasts. The pollen index can help hay fever sufferers to plan their activities and medication. More about the effects of pollen .
+
+What do 'pressure charts' show?
+The white lines on the charts (isobars) join together places of equal pressure. The isobars are shown at intervals of 4 millibars. Isobar labels are currently only available on the UK pressure chart at intervals of every three isobars - these should soon extend to all charts. 'Low' and 'high' might be written at the centre of areas of low and high pressure ( more on air pressure ). Cold fronts are shown in blue and warm fronts in red ( more on weather fronts ). Find out more about pressure charts .
+
+What do 'cloud and rain charts' show?
+Our cloud and rain charts show a combination of Infra Red satellite and radar images for observed charts, and forecast rain and forecast cloud for forecast charts.
+
+What do 'wind charts' show?
+Our wind charts show computer generated arrows illustrative of the expected wind speed and direction at the time shown. The larger the arrows, the stronger the winds. The colours indicate whether the wind will bring colder or warmer air, and range from blue (cold) to white and orange (warm). Find out more about wind arrows .
+
+What does wind chill mean?
+For an explanation of wind chill, see Wind Chill Explained .
+
+What is the difference between 'visible' and 'infra-red satellite'?
+Infra-Red satellite shows infra-red Meteosat images. They show the heat of particular objects, for example clouds or the surface of the sea, and give an image of the earth from space. Infra-red satellite images are available during both day and night. They are updated every hour in the UK and every three hours for the rest of the world.
+
+The visible satellite charts show visible spectrum Meteosat images. They show you what you can actually see from space and so are available during daylight only.
+
+Both sets of images are treated so that the thicker the cloud, the darker the colour they are given.
+
+How are sunrise and sunset times measured?
+Sunrise and sunset times are only available through BBC Weather for the next five days. Further information on sunrise and sunset times is available from the Royal Observatory Greenwich .
+
+Why is the sunrise time still getting later after the winter solstice?
+Information on sunrise and sunset times around the winter solstice can be found at Winter Solstice .
+How do I set my barometer?
+Information on setting your barometer can be found in Setting your barometer .
+
+How do I convert from Celsius to Fahrenheit / m.p.h. to the Beaufort Scale / millibars to Pascals?
+BBC Weather conversion calculators for temperature, wind speed and pressure can be found at calculators .
+
+Why do we display temperature in Celsius and Fahrenheit?
+Celsius is the official measure of temperature for all meteorological organisations as agreed by the World Meteorological Organisation.
+
+General weather information
+For information on everything from the basics of weather to satellites and computer weather models see Fact Files .
+Jobs in weather
+For information on Meteorology, course and qualifications, and working in this field, see Jobs in Weather .
+
+Work experience
+For information on work experience in the BBC see our Work Experience page.
+
+Celsius v Fahrenheit
+Responsibility for the general replacement of the imperial measures (such as Fahrenheit) with metric (Celsius) rests with successive Governments, who decided that the country should shift to the metric system.
+
+Imperial measurements, however, are not excluded from our broadcasts because there are still a great many people who are only familiar with the imperial system. As a public service broadcaster, the BBC must cater for both systems to try and ensure, as far as possible, no section of our audience is alienated. The general rule for weather is that we show Celsius values on our graphics, but also give equivalent Fahrenheit figures verbally when they are unusual for the time of year or significant in some other way.
+
+BBC Weather broadcast schedule
+ BBC Radio Schedules
+
+Photo gallery
+Submission details, together with our terms and conditions, can be found on our Submission help page .
+
+Don't forget to send in your details and information about your photo with your submission!
+
+General BBC queries
+For general BBC queries, please contact us through our BBC Feedback page.
+
+Linking to BBC Weather
+BBC material is copyright. You may not copy, reproduce, republish, download, post, broadcast, transmit or otherwise use BBC content in any way except for your own personal, non-commercial use. By using BBC websites, you also agree not to adapt, alter or create a derivative work from any BBC content except for your own personal, non-commercial use. Any other use of BBC content requires the prior written permission of the BBC.
+
+If you would like to link to BBC Weather from your own website, please read our BBC Terms and Conditions .
+
+Shipping Forecast
+The BBC Radio 4 Shipping Forecast music is called Sailing By and was composed by Ronald Binge. The version of Sailing By that Radio 4 use is not available commercially. However, a similar recording has been issued by Seaward Records Ltd, Strathallan Castle, Port St Mary, Isle of Man. The tune is also on a CD, The Music of Ronald Binge, from Marco Polo Records, number 8.223515.
+
+BBC Weather forecasters
+Find out more about your favourite forecasters in Meet the current team .
+
+Web guide

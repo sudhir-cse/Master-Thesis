@@ -1,0 +1,48 @@
+Timestamp: 20110319032622
+Title: BBC News - Web attack takes Anonymous activists offline
+Text: The notorious message board 4Chan has been taken offline by an overwhelming web attack.
+
+Because of the attack, the discussion boards of the site have been hard to reach or offline for almost 24 hours.
+
+The attack might be retaliation for similar attacks that some 4Chan members, as part of the Anonymous group, mounted in support of Wikileaks.
+
+It is not yet clear who is carrying out the attacks and no-one has come forward to claim responsibility.
+
+News about the large-scale web attack, known as a Distributed Denial of Service (DDoS) attack, came to light via a message posted on Twitter by Moot, the founder of 4Chan.
+
+He wrote: "Site is down due to DDoS. We now join the ranks of Mastercard, Visa, Paypal, et al - an exclusive club!"
+
+A DDoS attack involves bombarding a server behind a website with data in an attempt to knock it offline.
+
+Many members of 4Chan work together in the guise of a group called Anonymous to carry out attacks on websites they deem to be enemies of freedom of speech.
+
+Most recently, Anonymous members took action in support of whistle-blowing site Wikileaks. Anonymous used a DDoS tool to hit the corporate websites of Mastercard, Visa and Paypal because the firms had cut off payment connections to Wikileaks.
+
+Paul Mutton, a security analyst at site watching firm Netcraft, said the attack on 4Chan was ongoing.
+
+"For most of the past 24 hours, the site has either been very slow to respond or has been completely unreachable," he said.
+
+Statistics gathered by Netcraft show 4Chan was hit hard early on Wednesday but that it recovered towards the afternoon.
+
+A blog showing the status of the various elements of 4Chan suggests the image boards, the most heavily used part of the site, have been down for hours.
+
+Early reports suggested that a hacktivist known as the Jester was behind the attack. Before now, some members of Anonymous said they would target the Jester with DDoS attacks after he declared an ambition to knock Wikileaks offline.
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top Stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+

@@ -1,0 +1,60 @@
+Timestamp: 20060701043722
+Title: BBC - Weather Centre - Guide to BBC Weather Player
+Text:  Return to top 
+How do I navigate around the service?
+
+Available video and audio forecasts are listed on the right hand side of the Weather Player.
+
+You can find a five day forecast for towns and cities in the UK and around the world using the red search box.
+
+You can also find out the latest weather and flood warnings for the UK.
+
+The Watch / listen to BBC Weather forecasts link acts as a Home button and will always return you to the opening page and the Photo of the Week image.
+
+You can also access other BBC video and audio content in the Sport, News and Radio Players. To do so, click on the tabs at the top of the Weather Player.
+ Return to top 
+How do I watch video or listen to audio?
+
+When you have launched the Weather Player, you will find a list of available forecasts on the right. If the item is audio only, it will say so. By clicking on the forecast name or associated image, the forecast you want to watch will be displayed on the left.
+
+You can start, pause or stop the video by using the video or audio control buttons immediately below the video screen.
+ Return to top 
+Is there a minimum specification to access the service?
+
+The minimum browser requirements needed to access this BBC service are:
+
+
+Netscape 5 and above, Microsoft Internet Explorer 5 and above, or Opera 7 and above. (Other browsers may work with the BBC Weather Player, however the BBC is unable to guarantee their compatibility);
+
+For information on system requirements for these players please check the websites listed above.
+
+Some advanced Weather Player functionality will not be available when using Windows Media Player with non-Microsoft web browsers. This does not affect Real Player, and basic viewing of clips is available on any browser/player combination listed above.
+ Return to top 
+When I click on the link, the BBC Weather Player does not launch
+
+You should confirm that you have Javascript enabled on your browser (see the browser help file to find out how to do this). You should also check that any popup blocking mechanisms you have installed on your computer, including Microsoft Service Pack 2, are not set to deny popups launched from bbc.co.uk pages.
+ Return to top 
+When I click on the link, the BBC News Player launches but no video or audio plays
+
+You should confirm that you have one of the media player versions listed above and that you have chosen to access Weather Player with it (you can confirm/modify your preference via the change how I view or hear this (settings) link at the bottom of the News Player window).
+
+Media player plug-ins are sometimes not available if you have installed or upgraded your browser since installing your chosen media player. In this instance reinstalling the latest version of your preferred media player and restarting your computer may help.
+
+Alternatively, you may wish to seek technical support from your media player software vendor (websites are listed above).
+ Return to top 
+My video and audio does not play smoothly
+
+There are many reasons why this might occur.
+
+Your bandwidth may be being used by another application (or another computer, if your connection is via a home/office network). Your viewing experience will be affected if our servers are unable to deliver data to your computer quickly enough because of network congestion on your connection.
+
+Downloading large files or using peer-to-peer applications while watching video, for example, may prevent you from being able to receive enough data to maintain a constant video stream.
+
+If you do not believe your connection is being used by other applications or other people, check your media player has the correct bandwidth settings. See the following help pages for more advice.
+ RealPlayer (opens in new window)
+ Windows Media Player opens in new window)
+
+ Return to top 
+Let us know what you think
+
+If you would like to comment or have suggestions about this BBC service then you can contact us via the link at the top of the page.

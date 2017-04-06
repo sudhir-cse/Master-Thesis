@@ -1,0 +1,49 @@
+Timestamp: 20120107061526
+Title: BBC News - New solar fuel machine 'mimics plant life'
+Text: Methane can be produced using the same machine, they say.
+ Refinements needed
+The prototype is grossly inefficient, the fuel created harnessing only between 0.7% and 0.8% of the solar energy taken into the vessel.
+
+Most of the energy is lost through heat loss through the reactor's wall or through the re-radiation of sunlight back through the device's aperture.
+
+But the researchers are confident that efficiency rates of up to 19% can be achieved through better insulation and smaller apertures. Such efficiency rates, they say, could make for a viable commercial device.
+
+"The chemistry of the material is really well suited to this process," says Professor Sossina Haile of the California Institute of Technology (Caltech). "This is the first demonstration of doing the full shebang, running it under (light) photons in a reactor."
+
+She says the reactor could be used to create transportation fuels or be adopted in large-scale energy plants, where solar-sourced power could be available throughout the day and night.
+
+However, she admits the fate of this and other devices in development is tied to whether states adopt a low-carbon policy.
+
+"It's very much tied to policy. If we had a carbon policy, something like this would move forward a lot more quickly," she told the BBC.
+
+It has been suggested that the device mimics plants, which also use carbon dioxide, water and sunlight to create energy as part of the process of photosynthesis. But Professor Haile thinks the analogy is over-simplistic.
+
+"Yes, the reactor takes in sunlight, we take in carbon dioxide and water and we produce a chemical compound, so in the most generic sense there are these similarities, but I think that's pretty much where the analogy ends."
+
+
+ The PS10 solar tower plant near Seville, Spain. Mirrors concentrate the sun's power on to a central tower, driving a steam turbine
+
+Daniel Davies, chief technology officer at the British photovoltaic company Solar Century, said the research was "very exciting".
+
+"I guess the question is where you locate it - would you put your solar collector on a roof or would it be better off as a big industrial concern in the Sahara and then shipping the liquid fuel?" he said.
+
+Solar technology is moving forward apace but the overriding challenges remain ones of efficiency, economy and storage.
+
+New-generation "solar tower" plants have been built in Spain and the United States which use an array of mirrors to concentrate sunlight onto tower-mounted receivers which drive steam turbines.
+
+A new Spanish project will use molten salts to store heat from the Sun for up to 15 hours, so that the plant could potentially operate through the night.
+             
+  
+       
+ 
+ 
+
+
+
+                                    
+
+Programmes
+
+
+
+

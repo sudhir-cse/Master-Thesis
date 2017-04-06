@@ -1,0 +1,71 @@
+Timestamp: 20120107061647
+Title: BBC News - Google faces 'wire tapping' case over Street View
+Text: 
+
+
+Google could be sued for scooping up data from open wi-fi networks after a US court ruling.
+
+A judge in San Francisco decided that the company's actions may have violated federal laws on wire tapping.
+
+Google had tried to have the class action lawsuit thrown out, claiming that anyone could have intercepted the wireless signals.
+
+It had previously admitted collecting the data by mistake while gathering images for its Street View service.
+
+Since the blunder was revealed, Google has stopped its Street View cars logging wi-fi networks.
+ Private data
+The problem was discovered in 2010 when German data protection officials asked the company what information its Street View photography cars were collecting.
+
+As well as taking panoramic images, it emerged that they also logged wi-fi networks to help with the search firm's location services.
+
+That involved sampling packets of data from wireless hotspots. On open, unencrypted networks the system grabbed logins, passwords and other personal details. About 600MB of data was collected in 30 countries.
+
+At the time, Google apologised for its action, blaming a coding error, and pledged to delete the data.
+
+The revelation led to investigations in several countries. France fined Google 100,000 euros (£87,000) over the breach.
+
+In the US, a class action lawsuit was brought on behalf of plaintiffs from nine states. The case is being heard in California where Google's headquarters is located.
+
+The company tried to have the case dismissed on the grounds that the data gathering was inadvertent. It also said that anyone could have intercepted the transmissions.
+
+More Technology stories
+ RSS 
+
+
+
+                
+
+Top stories
+
+    
+
+                
+
+Features & Analysis
+
+
+
+
+Identity crisis? 
+
+What Republicans could learn from UK Tories' wilderness years 
+
+
+
+
+
+Mississippi Blues 
+
+Why is the Delta still so poor? 
+
+
+
+
+
+Keeping guard 
+
+Libya's revolutionary militias are reluctant to down weapons 
+
+
+
+
+
