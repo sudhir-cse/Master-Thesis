@@ -7,7 +7,7 @@ Clustering real time text data streams is an important issue in industries as we
   1. Spark with Scala 
   2. Spark Streaming
   3. Spark ML: K-Means, LDA, PCA, word2vec, TFIDF
-  4. Spark SQL, Dataframe
+  4. Spark SQL, Dataframe, UDF
   5. HDFS
   6. Yarn
   7. Eclipse
